@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function addTodo(input){
     let li = document.createElement('li')
     let btn = document.createElement('button')
-    btn.textContent = 'x'
+    btn.textContent = 'delete'
     btn.addEventListener('click', deleteList)
     li.textContent = `${input}  `
     document.querySelector('#list').appendChild(li)
